@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Vitor WEB SERVER</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      h1 {
+        font-size: 1.8rem;
+        color: white;
+      }
+      h2{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #143642;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #69b75b;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 80px;
+        z-index: 5;
+      }
+      
+      .logo-satc {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 6px;
+      }
+
+      body {
+        margin: 0;
+        background-image: url('./img/background.jpg');
+        background-size: cover;
+        padding-bottom: 20px;
+      }
+      iframe {
+        background-color: #fff;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+      .content {
+        padding: 30px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .container-person {
+        display: flex;
+        background-color: #69b75b;
+        width: 100%;
+        padding-left: 20px;
+        align-items: center;
+        margin-top: 20px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        position: relative;
+      }
+      .title-name {
+        color: #FFF;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 18px;
+      }
+      .image-person {
+        margin-right: 5px;
+        border-radius: 50%;
+      }
+      .title-page {
+        width: 100%;
+        position: absolute;
+      }
+
+    </style>
+    <meta charset='UTF-8'>
+  </head>
+  <body>
+    <div class='topnav'>
+      <img class="logo-satc" height="90px" src="https://www1.satc.edu.br/portais/acesso/public/assets/img/logoSatc.png"/>
+    </div>
+    <div class="column">
+      <div>
+        <div class="container-person">
+          <img class="image-person" height="40px" width="40px" src="https://avatars.githubusercontent.com/u/26388005?v=4"/>
+          <p class="title-name">Vitor Demboski Demo</p>
+          <img style="position: absolute;right: 20px;" height="20px" src="./img/graphic.png"/>
+        </div>
+        <iframe width="450" height="218" scrolling="no" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1596429/charts/5?bgcolor=%23ffffff&color=%236a0dad&dynamic=true&results=60&title=Sensor+de+dist%C3%A2ncia+-+Vitor&type=line&xaxis=Leitura+em&yaxis=Dist%C3%A2ncia"></iframe>
+        <iframe width="450" height="218" scrolling="no" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1596429/charts/6?bgcolor=%23ffffff&color=%23ff8c00&dynamic=true&results=60&title=Luminosidade+-+Vitor&type=line&xaxis=Leitura+em&yaxis=Luminosidade"></iframe>
+      </div>
+      <div>
+        <div class="container-person">
+          <img class="image-person" height="40px" width="40px" src="https://avatars.githubusercontent.com/u/26387908?v=4"/>
+          <p class="title-name">Vinicius Margotti</p>
+          <img style="position: absolute;right: 20px;" height="20px" src="./img/graphic.png"/>
+        </div>
+        <iframe width="450" height="218" scrolling="no" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1596429/charts/1?bgcolor=%23ffffff&color=%2300a000&dynamic=true&results=10&title=Sensor+de+dist%C3%A2ncia+-+Vin%C3%ADcius&type=spline&xaxis=Leitura+em&yaxis=Dist%C3%A2ncia"></iframe>
+        <iframe width="450" height="218" scrolling="no" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1596429/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Luminosidade+-+Vin%C3%ADcius&type=line&xaxis=Leitura+em&yaxis=Luminosidade"></iframe>
+      </div>
+      <div>
+        <div class="container-person">
+          <img class="image-person" height="40px" alt="instagram" width="40px" src="./img/THAYNA.jpg"/>
+          <p class="title-name">Thayna Euzébio</p>
+          <img style="position: absolute;right: 20px;" height="20px" src="./img/graphic.png"/>
+        </div>
+        <iframe width="450" height="218" scrolling="no" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1596429/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Sensor+de+dist%C3%A2ncia+-+Thayna&type=line&xaxis=Leitura+em&yaxis=Dist%C3%A2ncia"></iframe>
+        <iframe width="450" height="218" scrolling="no" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1596429/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Luminosidade+-+Thayna&type=line&xaxis=Leitura+em&yaxis=Luminosidade"></iframe>
+      </div>
+    </div>
+  </body>
+</html>
