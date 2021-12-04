@@ -23,7 +23,7 @@ O projeto pode ser visualizado em
 https://satc2030iot2.herokuapp.com/
 ```
 
-## PLataforma de gráficos
+## Plataforma de gráficos
 
 Para a comunicação e confecção de gráficos foi utilizado a plataforma https://thingspeak.com/channels/1596429,
 onde foi criado 6 canais para a integração com os sensores do arduino
