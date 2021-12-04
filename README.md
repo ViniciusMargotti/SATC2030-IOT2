@@ -15,7 +15,7 @@ A cada Push na branche Main, a pipeline do projeto será iniciada na Heroku
 
 Como alternativa, você pode implantar sua própria cópia do aplicativo usando este botão:
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/apps/satc2030iot2/deploy/github)
 
 O projeto pode ser visualizado em 
 
